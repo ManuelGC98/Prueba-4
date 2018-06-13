@@ -1,4 +1,4 @@
-package zoo;
+package java.main.zoo;
 
 public abstract class Pez extends Animal {
 

@@ -1,22 +1,33 @@
-package zoo;
+package java.main.zoo;
 
 public class Leon extends Mamifero {
- 
+
     private String rugido = "GRRRRR";
-    
-    Leon () {}
-    
-    Leon (Habitat habitat, String comida, int longevidad, int periodoLactancia) {
+
+    Leon() {
+    }
+
+    Leon(Habitat habitat, String comida, int longevidad, int periodoLactancia) {
         super(habitat, comida, longevidad, periodoLactancia);
     }
-    
-    public void setRugido (String rugido) { this.rugido = rugido; }
-    
-    public String getRugido () { return rugido; }
-    
-    public void rugir () { System.out.println(rugido); }
-    
-    public void comer () { System.out.println("Estoy comiendo " + comida); }
-    
-    public void desplazar () { System.out.println("Estoy en busca de " + comida); }
+
+    public void setRugido(String rugido) {
+        this.rugido = rugido;
+    }
+
+    public String getRugido() {
+        return rugido;
+    }
+
+    public void rugir() {
+        System.out.println(rugido);
+    }
+
+    public void comer() {
+        System.out.println("Estoy comiendo " + comida);
+    }
+
+    public void desplazar() {
+        System.out.println("Estoy en busca de " + comida);
+    }
 }
